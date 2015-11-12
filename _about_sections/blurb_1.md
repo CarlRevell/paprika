@@ -1,5 +1,6 @@
 ---
 layout: section_style_1
+order: 2
 ---
-## This is some markdown content in section_style_1 layout
+## Blurb 1
 Lorem ipsum...
