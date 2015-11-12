@@ -6,6 +6,7 @@
 </head>
 <body>
 {% for section in site.about_sections %}
+{{ section.label }}
 {{ section.output }}
 {% endfor %}
 </body>
