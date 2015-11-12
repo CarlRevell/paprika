@@ -15,7 +15,7 @@
   </style>
 </head>
 <body>
-{% assign sortedsections = site.about_sections | sort: 'order' %}
+{% assign sortedsections = site.about_sections | sort: 'order', 'last' %}
 {% for section in sortedsections %}
 {{ section.collection }}
 {{ section.path }}
