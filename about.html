@@ -15,13 +15,8 @@
   </style>
 </head>
 <body>
-{% assign sortedsections = site.about_sections | sort: 'order', 'last' %}
+{% assign sortedsections = site.about_sections | sort: 'order' %}
 {% for section in sortedsections %}
-{{ section.collection }}
-{{ section.path }}
-{{ section.name }}
-{{ section.title }}
-{{ section.label }}
 {{ section.output }}
 {% endfor %}
 </body>
