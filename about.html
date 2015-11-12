@@ -16,6 +16,10 @@
 </head>
 <body>
 {% for section in site.about_sections %}
+{{ section.collection }}
+{{ section.path }}
+{{ section.name }}
+{{ section.title }}
 {{ section.label }}
 {{ section.output }}
 {% endfor %}
